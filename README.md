@@ -7,15 +7,14 @@
 MIImageViewer *imageViewer = [MIImageViewer imageViewer];
 NSArray *images = [self images];
 [imageViewer loadImages:images];
-//默认选中第三个
-imageViewer.defaultIndex = 2;
+imageViewer.defaultIndex = 2;//默认选中第三个
 [self.navigationController pushViewController:imageViewer animated:YES];
 ```
 加载UIImage数组：
 ```
 - (void)loadImages:(NSArray *)images;
 ```
-加载图片NSURL数组（传字符串也行）：
+加载图片NSURL数组（或字符串数组）：
 ```
 - (void)loadImageUrls:(NSArray *)imageUrls;
 ```
