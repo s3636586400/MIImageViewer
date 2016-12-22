@@ -20,6 +20,6 @@ imageViewer.defaultIndex = 2;
 - (void)loadImageUrls:(NSArray *)imageUrls;
 ```
 # TODO
-未做横屏处理 
-图片缩放时，滑动体验太渣   
+1.未做横屏处理 2.图片缩放时，滑动体验太渣
+
 用到横屏时再处理吧……
