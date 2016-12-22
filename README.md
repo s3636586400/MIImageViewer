@@ -1,5 +1,5 @@
 # MIImageViewer
-简单图片浏览视图，左右滑动+缩放
+简单图片浏览控制器，左右滑动+缩放
 
 ![image](https://github.com/s3636586400/MIImageViewer/blob/master/GIF/MIImageViewGIF.gif)
 # How To Use
