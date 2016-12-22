@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01ECC8031F8B1F529730D05D /* libPods-MIImageViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF8E7414B96EA408F53D800 /* libPods-MIImageViewer.a */; };
+		41508F021DDC7D5500E21AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41508F011DDC7D5500E21AA4 /* main.m */; };
+		41508F051DDC7D5500E21AA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41508F041DDC7D5500E21AA4 /* AppDelegate.m */; };
+		41508F081DDC7D5500E21AA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41508F071DDC7D5500E21AA4 /* ViewController.m */; };
+		41508F0B1DDC7D5500E21AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41508F091DDC7D5500E21AA4 /* Main.storyboard */; };
+		41508F0D1DDC7D5500E21AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41508F0C1DDC7D5500E21AA4 /* Assets.xcassets */; };
+		41508F101DDC7D5500E21AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41508F0E1DDC7D5500E21AA4 /* LaunchScreen.storyboard */; };
+		418C87A01DDD4CA6006B481B /* MIImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C879F1DDD4CA6006B481B /* MIImageViewer.m */; };
+		418C87A31DDD4D46006B481B /* MIImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C87A21DDD4D46006B481B /* MIImageContainer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AADA84085720AF2DD976DBC /* Pods-MIImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIImageViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MIImageViewer/Pods-MIImageViewer.release.xcconfig"; sourceTree = "<group>"; };
+		1FF8E7414B96EA408F53D800 /* libPods-MIImageViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MIImageViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41508EFD1DDC7D5500E21AA4 /* MIImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41508F011DDC7D5500E21AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41508F031DDC7D5500E21AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41508F041DDC7D5500E21AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41508F061DDC7D5500E21AA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41508F071DDC7D5500E21AA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41508F0A1DDC7D5500E21AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41508F0C1DDC7D5500E21AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41508F0F1DDC7D5500E21AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41508F111DDC7D5500E21AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418C879E1DDD4CA6006B481B /* MIImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIImageViewer.h; sourceTree = "<group>"; };
+		418C879F1DDD4CA6006B481B /* MIImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIImageViewer.m; sourceTree = "<group>"; };
+		418C87A11DDD4D46006B481B /* MIImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIImageContainer.h; sourceTree = "<group>"; };
+		418C87A21DDD4D46006B481B /* MIImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIImageContainer.m; sourceTree = "<group>"; };
+		C5725164CF34DF884AD4197F /* Pods-MIImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIImageViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MIImageViewer/Pods-MIImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41508EFA1DDC7D5500E21AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01ECC8031F8B1F529730D05D /* libPods-MIImageViewer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E92C6C45107C3221709ED36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8E7414B96EA408F53D800 /* libPods-MIImageViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41508EF41DDC7D5500E21AA4 = {
+			isa = PBXGroup;
+			children = (
+				41508EFF1DDC7D5500E21AA4 /* MIImageViewer */,
+				41508EFE1DDC7D5500E21AA4 /* Products */,
+				DB51C3D1A6EDFC5FCBF6F941 /* Pods */,
+				0E92C6C45107C3221709ED36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41508EFE1DDC7D5500E21AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41508EFD1DDC7D5500E21AA4 /* MIImageViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41508EFF1DDC7D5500E21AA4 /* MIImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				41508F171DDC7D6E00E21AA4 /* MIImageViewer */,
+				41508F031DDC7D5500E21AA4 /* AppDelegate.h */,
+				41508F041DDC7D5500E21AA4 /* AppDelegate.m */,
+				41508F061DDC7D5500E21AA4 /* ViewController.h */,
+				41508F071DDC7D5500E21AA4 /* ViewController.m */,
+				41508F091DDC7D5500E21AA4 /* Main.storyboard */,
+				41508F0C1DDC7D5500E21AA4 /* Assets.xcassets */,
+				41508F0E1DDC7D5500E21AA4 /* LaunchScreen.storyboard */,
+				41508F111DDC7D5500E21AA4 /* Info.plist */,
+				41508F001DDC7D5500E21AA4 /* Supporting Files */,
+			);
+			path = MIImageViewer;
+			sourceTree = "<group>";
+		};
+		41508F001DDC7D5500E21AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41508F011DDC7D5500E21AA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41508F171DDC7D6E00E21AA4 /* MIImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				418C879E1DDD4CA6006B481B /* MIImageViewer.h */,
+				418C879F1DDD4CA6006B481B /* MIImageViewer.m */,
+				418C87A11DDD4D46006B481B /* MIImageContainer.h */,
+				418C87A21DDD4D46006B481B /* MIImageContainer.m */,
+			);
+			path = MIImageViewer;
+			sourceTree = "<group>";
+		};
+		DB51C3D1A6EDFC5FCBF6F941 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5725164CF34DF884AD4197F /* Pods-MIImageViewer.debug.xcconfig */,
+				0AADA84085720AF2DD976DBC /* Pods-MIImageViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41508EFC1DDC7D5500E21AA4 /* MIImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41508F141DDC7D5500E21AA4 /* Build configuration list for PBXNativeTarget "MIImageViewer" */;
+			buildPhases = (
+				E3D70C549BEDE6E13264B066 /* [CP] Check Pods Manifest.lock */,
+				41508EF91DDC7D5500E21AA4 /* Sources */,
+				41508EFA1DDC7D5500E21AA4 /* Frameworks */,
+				41508EFB1DDC7D5500E21AA4 /* Resources */,
+				D897FA7298A68E572C18356B /* [CP] Embed Pods Frameworks */,
+				E8738E56AF2A28DB7762D7B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIImageViewer;
+			productName = MIImageViewer;
+			productReference = 41508EFD1DDC7D5500E21AA4 /* MIImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41508EF51DDC7D5500E21AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MaskIsland;
+				TargetAttributes = {
+					41508EFC1DDC7D5500E21AA4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K5JHG79E8M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 41508EF81DDC7D5500E21AA4 /* Build configuration list for PBXProject "MIImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41508EF41DDC7D5500E21AA4;
+			productRefGroup = 41508EFE1DDC7D5500E21AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41508EFC1DDC7D5500E21AA4 /* MIImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41508EFB1DDC7D5500E21AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41508F101DDC7D5500E21AA4 /* LaunchScreen.storyboard in Resources */,
+				41508F0D1DDC7D5500E21AA4 /* Assets.xcassets in Resources */,
+				41508F0B1DDC7D5500E21AA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D897FA7298A68E572C18356B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIImageViewer/Pods-MIImageViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D70C549BEDE6E13264B066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8738E56AF2A28DB7762D7B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIImageViewer/Pods-MIImageViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41508EF91DDC7D5500E21AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41508F081DDC7D5500E21AA4 /* ViewController.m in Sources */,
+				418C87A01DDD4CA6006B481B /* MIImageViewer.m in Sources */,
+				418C87A31DDD4D46006B481B /* MIImageContainer.m in Sources */,
+				41508F051DDC7D5500E21AA4 /* AppDelegate.m in Sources */,
+				41508F021DDC7D5500E21AA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41508F091DDC7D5500E21AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41508F0A1DDC7D5500E21AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41508F0E1DDC7D5500E21AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41508F0F1DDC7D5500E21AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41508F121DDC7D5500E21AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41508F131DDC7D5500E21AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41508F151DDC7D5500E21AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5725164CF34DF884AD4197F /* Pods-MIImageViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K5JHG79E8M;
+				INFOPLIST_FILE = MIImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskisland.MIImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41508F161DDC7D5500E21AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AADA84085720AF2DD976DBC /* Pods-MIImageViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K5JHG79E8M;
+				INFOPLIST_FILE = MIImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskisland.MIImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41508EF81DDC7D5500E21AA4 /* Build configuration list for PBXProject "MIImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41508F121DDC7D5500E21AA4 /* Debug */,
+				41508F131DDC7D5500E21AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41508F141DDC7D5500E21AA4 /* Build configuration list for PBXNativeTarget "MIImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41508F151DDC7D5500E21AA4 /* Debug */,
+				41508F161DDC7D5500E21AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41508EF51DDC7D5500E21AA4 /* Project object */;
+}
